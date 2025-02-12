@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ReactNode } from "react"; // Import ReactNode type
 
 export const DATA = {
   name: "Llewellyn Y. Fisher",
@@ -99,7 +100,7 @@ export const DATA = {
         {
           type: "Website",
           href: "https://telluricaquarian.com/",
-          icon: <Icons.globe />, // Fixed icon as JSX
+          icon: <Icons.globe key="globe" /> as ReactNode, // Ensuring it's treated as ReactNode
         },
       ],
       image: "",
