@@ -238,11 +238,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-        },
-      ],
     },
-    {
-      title: "Design Engineering",
+  ],
+  title: "Design Engineering",
       dates: "2024 - 2025",
       location: "Sydney, AU",
       description:
