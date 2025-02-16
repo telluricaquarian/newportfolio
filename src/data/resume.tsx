@@ -284,7 +284,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-7.mp4",
     },
   ],
   hackathons: [
