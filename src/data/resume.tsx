@@ -255,7 +255,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-5.mp4",
     },
     {
       title: "Automatic Chat",
