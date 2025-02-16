@@ -150,7 +150,7 @@ export const DATA = {
       end: "2021",
     },
     {
-      school: "Make.com,
+      school: "Make.com",
       href: "https://www.make.com/en/",
       degree: "Make Foundation",
       logoUrl: "/laurier.png",
