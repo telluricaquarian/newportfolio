@@ -121,14 +121,6 @@ export const DATA = {
       start: "2025",
       end: "Present",
     },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
-    },
   ],
   projects: [
     {
