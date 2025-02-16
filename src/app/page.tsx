@@ -165,29 +165,34 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   As a byproduct of creating content for my branding & promotional efforts{" "}
-                  {DATA.hackathons.length}+ i have learnt a great deal about design and am constantly, educating & upskillingmyself 
-                  on the topic and the permutations of the related skills
+                  {DATA.hackathons.length > 0 ? `${DATA.hackathons.length}+` : "No"} hackathons, 
+                  I have learned a great deal about design and am constantly educating & upskilling myself
+                  on the topic and the permutations of the related skills.
                 </p>
               </div>
             </div>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
+              {DATA.hackathons?.length > 0 ? (
+                DATA.hackathons.map((project, id) => (
+                  <BlurFade
+                    key={project.title + project.dates}
+                    delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                  >
+                    <HackathonCard
+                      title={project.title}
+                      description={project.description}
+                      location={project.location}
+                      dates={project.dates}
+                      image={project.image}
+                      links={project.links}
+                    />
+                  </BlurFade>
+                ))
+              ) : (
+                <p>No hackathons available at the moment.</p> // Optional fallback
+              )}
             </ul>
           </BlurFade>
         </div>
