@@ -60,16 +60,16 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Telluricaquarian",
+      href: "https://telluricaquarian.com/",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      title: "Designer & Enagic® Product Distributor",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "2023",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Telluricaquarian is a brand that is created by llewellyn, that is designed for the delivery of messages relating to products & services pertaining to Technology, Design & Water, with a large focus on fringe insights regarding Water Technology Water Ionisers offered by Enagic® which are designed to electrolytically transform water.",
     },
     {
       company: "Shopify",
