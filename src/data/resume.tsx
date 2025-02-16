@@ -193,7 +193,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://www.youtube.com/embed/4umTJOJ1ydI?si=oCI-ge1smIbP-hSc",
     },
     {
       title: "Magic UI",
