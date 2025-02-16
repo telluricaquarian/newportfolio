@@ -8,7 +8,7 @@ export const DATA = {
   location: "Planet Earth, Telluric Aquarian",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
-    "Designer, Electrolysis Geek. I love designing, learning & sharing the research i find.",
+    "Designer, Enagic® Product Distributor. I love designing, learning & sharing the research i find.",
     summary: `At the end of 2019, I left my job in Sport & Recreation and at the beginning of 2020 became introduced to "Kangen Water®". I have been actively promoting and sharing information pertaining to this high-quality water.\n\nUp until the year 2025, I have been in and out of jobs, alongside taking up "A La Carte" Freelancing gigs here and there pertaining to media buying for SMBs/SMEs, Volunteer/Commission work for startups.\n\nOffering my services via Upwork, Social Media & Outreach.`,
   avatarUrl: "/me.png",
   skills: [
