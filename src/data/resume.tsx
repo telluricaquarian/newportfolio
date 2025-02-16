@@ -2,60 +2,49 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Llewellyn Y. Fisher",
+  initials: "L.Y.F",
+  url: "https://telluricaquarian.com/",
+  location: "Planet Earth, Telluric Aquarian",
+  locationLink: "https://www.google.com/maps/place/sydney",
   description:
     "Designer, Electrolysis Geek. I love designing, learning & sharing the research i find.",
     summary: `At the end of 2019, I left my job in Sport & Recreation and at the beginning of 2020 became introduced to "Kangen Water®". I have been actively promoting and sharing information pertaining to this high-quality water.\n\nUp until the year 2025, I have been in and out of jobs, alongside taking up "A La Carte" Freelancing jobs here and there pertaining to media buying for SMBs/SMEs, Volunteer/Commission work for startups.\n\nOffering my services via Upwork, Social Media & Outreach.`,
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
-    "Node.js",
+    "Figma",
+    "No-Code",
+    "Prompt Engineering",
+    "Vibe-Coder",
     "Python",
-    "Go",
-    "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "Canva",
+    "Youtuber",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "llewellyn@telluricaquarian.com",
+    tel: "Upon Req.",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/telluricaquarian",
         icon: Icons.github,
-
-        navbar: true,
-      },
-      LinkedIn: {
-        name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
-        icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/potentialseven",
         icon: Icons.x,
 
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
+        url: "https://www.youtube.com/@telluricaquarian",
         icon: Icons.youtube,
         navbar: true,
       },
