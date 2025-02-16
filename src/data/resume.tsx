@@ -88,10 +88,10 @@ export const DATA = {
       location: "Sydney, NSW",
       title: "Web Designer",
       logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "2024",
+      end: "Present",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Areculateir is a Web Design Brand, Designed to function as a content delivery directory, showcasing design & visual assets.",
     },
     {
       company: "Splunk",
