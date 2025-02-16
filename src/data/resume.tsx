@@ -95,42 +95,6 @@ export const DATA = {
       description:
         "Areculateir is a Web Design Brand, Designed to function as a content delivery directory, showcasing design & visual assets.",
     },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-    },
   ],
   education: [
     {
@@ -146,16 +110,16 @@ export const DATA = {
       href: "https://www.domestika.org/en",
       degree: "Innovative Web Design in Figma Step-by-Step Process",
       logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      start: "2024",
+      end: "2025",
     },
     {
       school: "Make.com",
       href: "https://www.make.com/en/",
       degree: "Make Foundation",
       logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
+      start: "2025",
+      end: "Present",
     },
     {
       school: "International Baccalaureate",
