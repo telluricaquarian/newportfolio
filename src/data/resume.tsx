@@ -149,12 +149,12 @@ export const DATA = {
         "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-3.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "A.I enhanced CGI/Animations for Enhanced Perceived Value",
+      href: "https://telluricaquarian.com/",
+      dates: "2024 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Leveraging AI enhance CGI & Animation",
       technologies: [
         "Next.js",
         "Typescript",
@@ -181,8 +181,8 @@ export const DATA = {
       video: "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-4.mp4",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
+      title: "Areculateir",
+      href: "https://telluricaquarian.com/",
       dates: "April 2023 - September 2023",
       active: true,
       description:
