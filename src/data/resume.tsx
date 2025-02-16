@@ -73,6 +73,7 @@ export const DATA = {
     },
     {
       company: "Freelance Media Buyer",
+      href: "https://telluricaquarian.com/",
       badges: [],
       location: "Remote",
       title: "Freelance Media Buyer",
@@ -84,6 +85,7 @@ export const DATA = {
     },
     {
       company: "Areculateir",
+      href: "https://telluricaquarian.com/",
       badges: [],
       location: "Sydney, NSW",
       title: "Web Designer",
