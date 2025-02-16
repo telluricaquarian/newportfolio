@@ -168,26 +168,23 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Telluricaquarian",
+      href: "https://telluricaquarian.com/",
+      dates: "2023 - Present",
       active: true,
       description:
         "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Wordpress",
+        "Ricosupply",
+        "Figma",
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://telluricaquarian.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -225,7 +222,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-4.mp4",
     },
     {
       title: "llm.report",
