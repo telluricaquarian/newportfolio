@@ -39,6 +39,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* About Section */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -49,6 +51,8 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      {/* Work Experience Section */}
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
@@ -60,7 +64,6 @@ export default function Page() {
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
             >
               <ResumeCard
-                key={work.company}
                 logoUrl={work.logoUrl}
                 altText={work.company}
                 title={work.company}
@@ -74,6 +77,8 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* Education Section */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -85,7 +90,6 @@ export default function Page() {
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
               <ResumeCard
-                key={education.school}
                 href={education.href}
                 logoUrl={education.logoUrl}
                 altText={education.school}
@@ -97,6 +101,8 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* Skills Section */}
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
@@ -105,12 +111,14 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+                <Badge>{skill}</Badge>
               </BlurFade>
             ))}
           </div>
         </div>
       </section>
+
+      {/* Projects Section */}
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -123,9 +131,7 @@ export default function Page() {
                   Check out my work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to simple web applications. Here are a few of my
-                  visual assets & projects.
+                  I&apos;ve worked on a variety of projects, from simple websites to simple web applications. Here are a few of my visual assets & projects.
                 </p>
               </div>
             </div>
@@ -138,7 +144,6 @@ export default function Page() {
               >
                 <ProjectCard
                   href={project.href}
-                  key={project.title}
                   title={project.title}
                   description={project.description}
                   dates={project.dates}
@@ -152,6 +157,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* Hackathons Section */}
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -191,12 +198,14 @@ export default function Page() {
                   </BlurFade>
                 ))
               ) : (
-                <p>No hackathons available at the moment.</p> // Optional fallback
+                <p>No hackathons available at the moment.</p>
               )}
             </ul>
           </BlurFade>
         </div>
       </section>
+
+      {/* Contact Section */}
       <section id="contact">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
@@ -215,8 +224,7 @@ export default function Page() {
                 >
                   with a direct question on instagram or twitter
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll respond whenever I can. I will ignore all soliciting.
               </p>
             </div>
           </BlurFade>
