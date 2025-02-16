@@ -234,10 +234,3 @@ export const DATA = {
       image: "",
       video:
         "https://telluricaquarian.com/wp-content/uploads/2025/02/Thumbnail-7.mp4",
-    },
-  ],
-        },
-      ],
-    },
-  ],
-} as const;
