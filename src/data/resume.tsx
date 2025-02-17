@@ -286,7 +286,7 @@ export const DATA = {
       description:
         "Built, Designed, Branded & ran performance marketing campaigns via media buying strategies for Ecom stores, subsequently leveraged skills acquired into a service, noticed a gap in SMB's & SME's owners knowledge base regarding configuration of meta media buying interfaces",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/qhacks.png",
+        "https://telluricaquarian.com/wp-content/uploads/2025/02/laurier-2.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg",
       links: [
         {
