@@ -257,7 +257,7 @@ export const DATA = {
       ],
     },
     {
-      title: "Invested more into learning about water edu. & tech.",
+      title: "Invested more into learning about water edu. and tech.",
       dates: "2022 - 2023",
       location: "Waterloo, Ontario",
       description:
