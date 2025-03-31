@@ -322,7 +322,7 @@ export const DATA = {
       dates: "2019",
       location: "Sydney, AU",
       description:
-        "Made Personal Development content, started my awakening journey to nattural health etc.",
+        "Made Personal Development content, started my awakening journey to nattural health etcetera and has since evolded into a tech. design & water focused channel.",
       image:
         "https://telluricaquarian.com/wp-content/uploads/2025/02/laurier-1.png",
       links: [
